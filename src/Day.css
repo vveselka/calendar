@@ -1,0 +1,53 @@
+.day {
+  position: relative;
+  height: 60px;
+  width: 700px;
+  border: 1px solid #e2e0e0;
+  margin-left: 45px;
+}
+
+.day .time {
+  position: absolute;
+  left: -56px;
+  height: 60px;
+  width: 50px;
+  text-align: right;
+}
+
+.time.start,
+.time.mid,
+.time.end {
+  display: block;
+}
+
+.start,
+.end {
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  right: 0px;
+  color: #797979;
+}
+
+.end {
+  bottom: 0px;
+}
+
+.start {
+  top: 0px;
+  top: -8px;
+}
+
+.mid {
+  position: absolute;
+  font-size: 9px;
+  top: 25px;
+  right: 0px;
+}
+
+.period {
+  text-transform: uppercase;
+  color: #a2a2a2;
+  font-size: 8px;
+  margin-left: 3px;
+}

@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.event {
+  background-color: rgb(245, 245, 245);
+  border-left: 4px solid rgb(65, 179, 140);
+  color: rgb(65, 179, 140);
+  padding: 7px;
+  height: inherit;
+  margin: 1px;
+}
+
+.event-wrapper {
+  position: absolute;
+}

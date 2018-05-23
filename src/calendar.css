@@ -1,0 +1,11 @@
+.calendar {
+  position: relative;
+}
+
+.events-container {
+  position: absolute;
+  top: 0px;
+  left: 55px;
+  width: 680px;
+  height: 720px;
+}
