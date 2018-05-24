@@ -19,6 +19,7 @@ const config = {
         use: ['style-loader', 'css-loader']
       }
     ]
-  }
+  },
+  performance: { hints: false }
 };
 module.exports = config;

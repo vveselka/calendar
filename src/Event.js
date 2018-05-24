@@ -28,7 +28,7 @@ export default function Event(props: Props): Node {
 
   return (
     <div className="event-wrapper" style={eventStyle}>
-      <div className="event">Sample Item</div>
+      <div className="event">Event</div>
     </div>
   );
 }
